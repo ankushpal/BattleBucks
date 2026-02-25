@@ -22,6 +22,7 @@ class LeaderboardViewModel(
     }
 
     override fun onCleared() {
+        super.onCleared()
         engine.stop()
     }
 }
